@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Covid-19</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,300,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="about.html">Статистика</a></li>
+          <li><a href="services.html">Лечение</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div id="blue">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h3 style="color: white;">Не забывайте о симптомах</h3>
+          <p><b>!!!</b>Сходите и проверьте свое здоровье<b>!!!</b></p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!--  bluewrap -->
+
+
+  <div class="container w">
+    <div class="row centered">
+      <br><br>
+      <div class="col-lg-3">
+        <img class="img-circle" src="img/pic.jpg" width="110" height="110" alt="">
+        <h4>Frank Lampard</h4>
+        <p><b>Часто наблюдаемые симптомы:</b><br>
+          повышение температуры тела;<br>
+          сухой кашель;<br>
+          утомляемость.</p>
+      </div>
+      <!-- col-lg-3 -->
+
+      <div class="col-lg-3">
+        <img class="img-circle" src="img/pic2.jpg" width="110" height="110" alt="">
+        <h4>David Wright</h4>
+        <p><b>Симптомы тяжелой формы заболевания:</b><br>
+          затрудненное дыхание или одышка;<br>
+          ощущение сдавленности или боль в грудной клетке;<br>
+          нарушение речи или двигательных функций.</p>
+      </div>
+      <!-- col-lg-3 -->
+
+      <div class="col-lg-3">
+        <img class="img-circle" src="img/pic3.jpg" width="110" height="110" alt="">
+        <h4>Mark Milestone</h4>
+        <p><b>У некоторых инфицированных могут наблюдаться:</b><br>
+          различные болевые ощущения;<br>
+          боль в горле;<br>
+          диарея;</p>
+      </div>
+      <!-- col-lg-3 -->
+
+      <div class="col-lg-3">
+        <img class="img-circle" src="img/pic4.jpg" width="110" height="110" alt="">
+        <h4>Tania Tissen</h4>
+        <p><b>Также среди симптомов могут наблюдаться:</b><br>
+          головная боль;<br>
+          потеря обоняния и вкусовых ощущений;<br>
+          сыпь на коже или депигментация ногтей на руках и ногах.</p>
+      </div>
+      <!-- col-lg-3 -->
+
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+
+
+  <!-- PORTFOLIO SECTION -->
+  <div id="dg">
+    <div class="container">
+      <div class="row centered">
+        <h3>Статистика в Казахстане</h3>
+        <br>
+
+        <!-- First Chart -->
+        <div class="col-lg-3">
+          <canvas id="canvas" height="130" width="130"></canvas>
+          <br>
+          <p><b>Заражено</b></p>
+          <p><small>На данный момент дела с "Covid-19" в Казахстане хороши. Подтвержденное количество случаев заражения <b>6 157</b>.</small></p>
+        </div>
+        <!-- /col-lg-3 -->
+
+        <!-- Second Chart -->
+        <div class="col-lg-3">
+          <canvas id="canvas2" height="130" width="130"></canvas>
+          <br>
+          <p><b>Выздоровели</b></p>
+          <p><small>Благодаря быстрой реакции на эпидемию, врачи смогли спасти от смерти <b>3 090</b> человек.</small></p>
+        </div>
+        <!-- /col-lg-3 -->
+        <h3>Статистика в мире</h3>
+        <br>
+        <!-- Third Chart -->
+        <div class="col-lg-3">
+          <canvas id="canvas3" height="130" width="130"></canvas>
+          <br>
+          <p><b>Заражено</b></p>
+          <p><small>Не так уж и много зараженных для всего мира. Но это, безусловно, большие потери для человечества. Количыество смертей во всем мире <b>4 664 486</b>.</small></p>
+        </div>
+        <!-- /col-lg-3 -->
+
+        <!-- Fourth Chart -->
+        <div class="col-lg-3">
+          <canvas id="canvas4" height="130" width="130"></canvas>
+          <br>
+          <p><b>Выздоровели</b></p>
+          <p><small>Дела с борьбой против вируса во всем мире не радуют. Спасенные жизни лишь 1/4 всех зараженныхю. <b>1 708 969</b>.</small></p>
+        </div>
+        <!-- /col-lg-3 -->
+
+
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- DG -->
+
+  <div id="r">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h4><b>О новом коронавирусе мир знает немного</b></h4>
+          <p>"В XXI веке произошло три случая вспышек, вызванных коронавирусами. SARS (атипичная пневмония — ред.) 
+            в 2003 году, MERS (ближневосточный респираторный синдром — ред.)в 2015 году и COVID-19. Летальность от 
+            атипичной пневмонии составляет 10%, MERS — 30%. COVID-19 от 2% до 3%.
+              Коронавирус действительно является новым вирусом, и он очень заразен, и мы ещё не до конца его понимаем. 
+              Со времени SARS прошло 17 лет. Мы не настаивали на постоянных наблюдениях и исследованиях, поэтому на 
+              этот раз мы все ещё не были достаточно подготовлены".</p>
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+
+  <!-- FOOTER -->
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+        <a href="#">Back to top</a>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </div>
+  <!-- Footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/chart/chart.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
